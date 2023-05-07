@@ -1,0 +1,7 @@
+﻿
+
+@if(TempData["Message"] != null){
+    <div class="notification">
+        @Html.Raw(TempData["Message"])
+    </div>
+}
